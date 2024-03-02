@@ -2,7 +2,7 @@
  
 @section('body')
     <div class="d-flex align-items-center justify-content-between">
-        <h1 class="mb-0">List Product</h1>
+        <h1 class="mb-0">List Produk</h1>
         <a href="{{ route('product.create') }}" class="btn btn-primary">Add Product</a>
     </div>
     <hr />
@@ -15,11 +15,11 @@
         <thead class="table-primary">
             <tr>
                 <th>#</th>
-                <th>Title</th>
-                <th>Price</th>
-                <th>Product Code</th>
-                <th>Description</th>
-                <th>Action</th>
+                <th>Nama Produk</th>
+                <th>Harga</th>
+                <th>Kode Produk</th>
+                <th>Deskripsi</th>
+                <th>Aksi</th>
             </tr>
         </thead>
         <tbody>

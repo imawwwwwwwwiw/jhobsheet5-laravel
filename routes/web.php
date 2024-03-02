@@ -1,5 +1,6 @@
 <?php
- 
+
+use App\Http\Controllers\CreateController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
  
@@ -9,4 +10,4 @@ Route::get('/', function () {
 });
  
 Route::resource('/product', ProductController::class);
-Route::get('/add', [AddController::class, 'Add']);
+Route::get('/add', [CreateController::class, 'Add']);
